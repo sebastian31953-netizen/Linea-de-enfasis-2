@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Casos prácticos de ciberseguridad, análisis de incidentes reales y planes de mitigación.">
+  <title>Casos Prácticos | Línea de Énfasis 2 · Ciberseguridad</title>
+  <link rel="stylesheet" href="CSS/estilos.css">
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner brand-row">
+      <div class="brand-mark" aria-hidden="true">L2</div>
+      <div>
+        <p class="eyebrow" style="margin-bottom:5px">AULA DIGITAL · INGENIERÍA DE SISTEMAS</p>
+        <p class="brand-title">LÍNEA DE ÉNFASIS 2: CIBERSEGURIDAD</p>
+        <p class="brand-subtitle">Aprendizaje Aplicado · Análisis Forense · Toma de Decisiones</p>
+      </div>
+    </div>
+  </header>
+  <div class="nav-wrap">
+    <nav class="navbar" aria-label="Navegación principal">
+      <a href="index.html"><span aria-hidden="true">⌂</span><span>Inicio</span></a>
+      <a href="temas.html"><span aria-hidden="true">▤</span><span>Temas</span></a>
+      <a href="conceptos.html"><span aria-hidden="true">◇</span><span>Conceptos</span></a>
+      <a href="casos-practicos.html" aria-current="page"><span aria-hidden="true">▣</span><span>Casos prácticos</span></a>
+      <a href="proyecto.html"><span aria-hidden="true">▶</span><span>Proyecto - Video Tutorial</span></a>
+    </nav>
+  </div>
+  <main>
+
+    <section class="hero">
+      <p class="eyebrow">Aprendizaje aplicado y forense</p>
+      <h1>Casos Prácticos y Escenarios Reales</h1>
+      <p>Análisis exhaustivo de incidentes de seguridad digital, diagnóstico de vulnerabilidades y formulación de estrategias de mitigación tanto para pymes comerciales como para infraestructuras críticas nacionales.</p>
+    </section>
+
+    <div class="section-heading">
+      <h2>Escenarios de Estudio del Curso</h2>
+      <p>Tres aproximaciones prácticas desarrolladas en los talleres aplicados de la asignatura.</p>
+    </div>
+
+    <section class="card-grid">
+      <article class="card">
+        <div class="card-icon">01</div>
+        <h3>Caso 1 · Pyme Comercial (Phishing y Nube)</h3>
+        <p>Una pyme comercial con 25 empleados sufre intrusión no autorizada a sus repositorios en la nube tras la apertura de un correo malicioso simulando ser un proveedor. Compromiso de cuentas y riesgo en facturación.</p>
+        <div style="margin-top: 14px;">
+          <span class="tag">Phishing</span>
+          <span class="tag">Plan 30 Días</span>
+          <span class="tag">MFA</span>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-icon">02</div>
+        <h3>Caso 2 · Sector Salud (Auditoría Clínica)</h3>
+        <p>Diagnóstico de seguridad en una clínica médica. Detección de contraseñas compartidas en recepción, ausencia de copias de seguridad en historias clínicas y red Wi-Fi compartida con equipos médicos.</p>
+        <div style="margin-top: 14px;">
+          <span class="tag">Sector Salud</span>
+          <span class="tag">Vulnerabilidades</span>
+          <span class="tag">VLANs</span>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-icon">03</div>
+        <h3>Caso 3 · Incidente Real Ecopetrol S.A. (2026)</h3>
+        <p>Ataque coordinado por la banda cibercriminal <em>The Gentlemen</em> (RaaS) contra la principal petrolera de Colombia. Intento de ransomware bloqueado, pero con exfiltración y filtración pública de archivos de 15 filiales.</p>
+        <div style="margin-top: 14px;">
+          <span class="tag">Ecopetrol</span>
+          <span class="tag">Exfiltración Cloud</span>
+          <span class="tag">The Gentlemen</span>
+        </div>
+      </article>
+    </section>
+
+    <!-- DETALLE CASO 1 -->
+    <section class="content-panel">
+      <h2>Caso 1: Incidente Empresarial por Phishing y Plan de Mitigación en 30 Días</h2>
+      <p><strong>Contexto del Incidente:</strong> En una empresa comercial con 25 trabajadores, un colaborador abrió un enlace de phishing contenido en una supuesta factura de proveedor. La ausencia de autenticación multifactor (MFA) y de filtros perimetrales permitió a los atacantes apoderarse de cuentas corporativas y acceder a los repositorios de almacenamiento en la nube.</p>
+      
+      <h3>Activos Críticos Identificados y Afectados</h3>
+      <ul>
+        <li><strong>Sistema de facturación e inventario:</strong> Controla el stock y los cobros diarios; su parálisis detiene los ingresos inmediatos.</li>
+        <li><strong>Base de datos de clientes y proveedores:</strong> Almacena información sensible y bancaria; su fuga acarrea multas legales y pérdida de reputación.</li>
+        <li><strong>Correo electrónico corporativo:</strong> Canal oficial que, al ser suplantado, facilita fraudes internos o hacia terceros.</li>
+        <li><strong>Plataforma de comercio electrónico:</strong> Motor de ventas directas cuya caída impacta la liquidez diaria.</li>
+        <li><strong>Almacenamiento en la nube:</strong> Custodia documentos administrativos, contratos y respaldos operativos.</li>
+      </ul>
+
+      <h3>Plan de Decisión Gerencial (Acciones Prioritarias a 30 Días)</h3>
+      <p>Ante un presupuesto limitado, se diseñó una hoja de ruta de bajo costo financiero y alto impacto defensivo:</p>
+      <ol>
+        <li><strong>Autenticación Multifactor (MFA) Inmediata:</strong> Activación obligatoria de doble factor en todas las cuentas de correo electrónico y servicios cloud.</li>
+        <li><strong>Segmentación de Red Wi-Fi:</strong> Aislamiento de una red exclusiva para visitas, separándola del tráfico de sistemas internos y administración.</li>
+        <li><strong>Capacitación Urgente Anti-Phishing:</strong> Talleres prácticos y simulacros periódicos para entrenar al personal en la detección de correos fraudulentos.</li>
+        <li><strong>Copias de Seguridad Automatizadas y Externas:</strong> Configuración de backups diarios en la nube con pruebas periódicas de restauración.</li>
+        <li><strong>Protocolo Rápido de Reporte:</strong> Canal de aviso ágil para que cualquier empleado reporte incidentes sospechosos en minutos.</li>
+      </ol>
+    </section>
+
+    <!-- DETALLE CASO 2 -->
+    <section class="content-panel">
+      <h2>Caso 2: Diagnóstico y Matriz de Vulnerabilidades en Clínica Médica</h2>
+      <p>Auditoría diagnóstica aplicada al sector hospitalario, donde la confidencialidad de la historia clínica y la disponibilidad de los equipos de soporte vital son determinantes:</p>
+      <ul>
+        <li><strong>Vulnerabilidad 1 (Claves compartidas en recepción):</strong> El personal de citas utilizaba una misma clave. <em>Medida:</em> Asignación de credenciales individuales no transferibles con contraseñas robustas y MFA.</li>
+        <li><strong>Vulnerabilidad 2 (Ausencia de backups en historias clínicas):</strong> Riesgo inminente de pérdida total ante un ataque de ransomware. <em>Medida:</em> Política de copias de seguridad 3-2-1 inmutables y cifradas en la nube.</li>
+        <li><strong>Vulnerabilidad 3 (Wi-Fi de pacientes compartido con equipos médicos):</strong> Exposición de monitores y telemetría a intrusiones locales. <em>Medida:</em> Segmentación de red mediante VLANs independientes con cortafuegos.</li>
+        <li><strong>Vulnerabilidad 4 (Falta de capacitación en personal administrativo):</strong> Vector propicio para malware por ingeniería social. <em>Medida:</em> Programa trimestral de formación en ciberhigiene y respuesta.</li>
+        <li><strong>Vulnerabilidad 5 (Acceso irrestricto a servidores clínicos):</strong> Todo usuario podía consultar historias de cualquier paciente. <em>Medida:</em> Control de acceso basado en roles (RBAC) aplicando el principio de mínimo privilegio.</li>
+      </ul>
+    </section>
+
+    <!-- DETALLE CASO 3 -->
+    <section class="content-panel">
+      <h2>Caso 3: Análisis Forense del Incidente Real Ecopetrol S.A. (Julio 2026)</h2>
+      <p><strong>Contexto e Importancia Estratégica:</strong> Ecopetrol S.A. es la empresa más relevante de Colombia y un pilar energético de América Latina. Su infraestructura tecnológica sostiene tanto la operación industrial (sistemas SCADA en pozos de extracción, oleoductos y refinerías como Reficar y Cenit) como la gestión corporativa (ERP SAP, nómina, finanzas y reportes a la SEC de EE. UU.).</p>
+
+      <h3>Cronología y Anatomía del Ataque</h3>
+      <ul>
+        <li><strong>17 de julio de 2026:</strong> Ecopetrol detectó accesos no autorizados a plataformas de almacenamiento cloud del Grupo Ecopetrol, atribuido a la banda cibercriminal <em>The Gentlemen</em> (RaaS). Las defensas automáticas de la petrolera frenaron en seco la ejecución de ransomware.</li>
+        <li><strong>20 de julio de 2026:</strong> La compañía emitió un comunicado confirmando que los sistemas operacionales y transaccionales no sufrieron interrupción ni alteración en la integridad de las bases de datos.</li>
+        <li><strong>27-28 de julio de 2026:</strong> Los atacantes consumaron su amenaza de extorsión publicando en foros ilegales documentos confidenciales exfiltrados de unas 15 filiales y aproximadamente 3.300 cuentas de usuario.</li>
+      </ul>
+
+      <h3>La Paradoja de la Confidencialidad</h3>
+      <p>El caso Ecopetrol brindó una valiosa lección académica: <strong>el compromiso de la confidencialidad es un incidente de máxima gravedad por sí solo</strong>. A pesar de que los pozos siguieron bombeando crudo y los archivos originales no fueron borrados, la pérdida de exclusividad de contratos, fórmulas, estrategias y datos personales conllevó requerimientos de la SEC, riesgos de demandas y pérdida de confianza corporativa.</p>
+
+      <h3>Estrategias de Fortalecimiento Propuestas</h3>
+      <ol>
+        <li><strong>Arquitectura Zero Trust:</strong> Verificación estricta de identidad y contexto en cada acceso a la nube, suprimiendo la confianza implícita por estar en la red interna.</li>
+        <li><strong>Microsegmentación entre Filiales:</strong> Aislar con muros lógicos las nubes de las 15 compañías del grupo para frenar movimientos laterales.</li>
+        <li><strong>Herramientas DLP (Data Loss Prevention):</strong> Detección y bloqueo de descargas masivas o atípicas de información confidencial hacia el exterior.</li>
+        <li><strong>Centro de Operaciones de Seguridad (SOC 24/7):</strong> Monitoreo ininterrumpido con integración SIEM y SOAR para orquestar respuestas automatizadas en segundos.</li>
+        <li><strong>Pruebas Ofensivas Continuas:</strong> Simulacros periódicos mediante ejercicios conjuntos de Red Team (ataque) y Blue Team (defensa).</li>
+      </ol>
+      <p class="note"><strong>Conclusión Forense:</strong> La resiliencia no consiste únicamente en evitar que los sistemas se apaguen, sino en asegurar que la información estratégica permanezca hermética bajo esquemas de mínimo privilegio y monitoreo continuo.</p>
+    </section>
+
+  </main>
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <span>© 2026 Línea de Énfasis 2 · Ciberseguridad · Corporación Universitaria Remington</span>
+    </div>
+  </footer>
+</body>
+</html>

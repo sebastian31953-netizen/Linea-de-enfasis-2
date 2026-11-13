@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Glosario avanzado y principios fundamentales de Ciberseguridad, gestión de riesgos y arquitecturas defensivas.">
+  <title>Conceptos Clave | Línea de Énfasis 2 · Ciberseguridad</title>
+  <link rel="stylesheet" href="CSS/estilos.css">
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner brand-row">
+      <div class="brand-mark" aria-hidden="true">L2</div>
+      <div>
+        <p class="eyebrow" style="margin-bottom:5px">AULA DIGITAL · INGENIERÍA DE SISTEMAS</p>
+        <p class="brand-title">LÍNEA DE ÉNFASIS 2: CIBERSEGURIDAD</p>
+        <p class="brand-subtitle">Glosario Técnico · Principios Rectores · Taxonomía de Seguridad</p>
+      </div>
+    </div>
+  </header>
+  <div class="nav-wrap">
+    <nav class="navbar" aria-label="Navegación principal">
+      <a href="index.html"><span aria-hidden="true">⌂</span><span>Inicio</span></a>
+      <a href="temas.html"><span aria-hidden="true">▤</span><span>Temas</span></a>
+      <a href="conceptos.html" aria-current="page"><span aria-hidden="true">◇</span><span>Conceptos</span></a>
+      <a href="casos-practicos.html"><span aria-hidden="true">▣</span><span>Casos prácticos</span></a>
+      <a href="proyecto.html"><span aria-hidden="true">▶</span><span>Proyecto - Video Tutorial</span></a>
+    </nav>
+  </div>
+  <main>
+
+    <section class="hero">
+      <p class="eyebrow">Glosario académico y marco teórico</p>
+      <h1>Conceptos Fundamentales de Ciberseguridad</h1>
+      <p>Compendio conceptual exhaustivo que articula la terminología técnica, los modelos de análisis de riesgo, los vectores de amenaza contemporáneos y los paradigmas defensivos aplicados en la protección de activos digitales e infraestructuras críticas.</p>
+    </section>
+
+    <div class="section-heading">
+      <h2>Taxonomía, Pilares y Mecanismos de Seguridad</h2>
+      <p>Nueve fichas técnicas estructuradas a partir de las discusiones teóricas y talleres de la asignatura.</p>
+    </div>
+
+    <!-- CUADRÍCULA DE 9 FICHAS CONCEPTUALES -->
+    <section class="card-grid">
+      <!-- 1. Tríada CIA -->
+      <article class="card">
+        <div class="card-icon">CIA</div>
+        <h3>La Tríada CIA</h3>
+        <p>Los tres pilares universales: <strong>Confidencialidad</strong> (acceso exclusivo a personal autorizado; ej. evitar fugas de patentes), <strong>Integridad</strong> (la información se mantiene exacta y libre de manipulaciones maliciosas; ej. evitar alteración de balances contables) y <strong>Disponibilidad</strong> (los sistemas funcionan ininterrumpidamente cuando el negocio los requiere; ej. evitar caídas de servidores transaccionales).</p>
+        <div style="margin-top: 14px;">
+          <span class="tag">Confidencialidad</span>
+          <span class="tag">Integridad</span>
+          <span class="tag">Disponibilidad</span>
+        </div>
+      </article>
+
+      <!-- 2. Distinción Disciplinar -->
+      <article class="card">
+        <div class="card-icon">DIS</div>
+        <h3>Enfoques de Seguridad</h3>
+        <p><strong>Seguridad de la Información:</strong> protege el conocimiento corporativo integral (físico y digital). <strong>Seguridad Informática:</strong> resguarda la infraestructura técnica local (servidores, redes y terminales). <strong>Ciberseguridad:</strong> defiende los entornos digitales conectados frente a ciberataques globales en internet. <strong>Protección de Datos:</strong> vela por el cumplimiento normativo y el derecho fundamental a la privacidad.</p>
+        <div style="margin-top: 14px;">
+          <span class="tag">Seg. Información</span>
+          <span class="tag">Ciberseguridad</span>
+          <span class="tag">Habeas Data</span>
+        </div>
+      </article>
+
+      <!-- 3. Ecuación del Riesgo -->
+      <article class="card">
+        <div class="card-icon">ΔR</div>
+        <h3>La Cadena del Riesgo</h3>
+        <p>Un <strong>activo</strong> es cualquier recurso con valor de negocio. Una <strong>vulnerabilidad</strong> es una falla o debilidad interna (software sin parches o contraseñas débiles); la <strong>amenaza</strong> es el agente externo con intención o capacidad de daño; el <strong>incidente</strong> es la materialización del ataque; y el <strong>riesgo</strong> es la probabilidad e impacto cuantificable para la empresa.</p>
+        <div style="margin-top: 14px;">
+          <span class="tag">Activo Crítico</span>
+          <span class="tag">Vulnerabilidad</span>
+          <span class="tag">Amenaza</span>
+          <span class="tag">Riesgo</span>
+        </div>
+      </article>
+
+      <!-- 4. Taxonomía Hacking -->
+      <article class="card">
+        <div class="card-icon">HAT</div>
+        <h3>Taxonomía del Hacking</h3>
+        <p><strong>White Hat (Hacking Ético):</strong> profesionales autorizados que auditan sistemas para parchar brechas antes de que sean explotadas. <strong>Black Hat:</strong> atacantes maliciosos motivados por extorsión económica, espionaje o destrucción. <strong>Gray Hat:</strong> investigadores que vulneran perímetros sin autorización previa pero sin ánimo directo de daño. Dinámica de <em>Red Team</em> (ataque) vs. <em>Blue Team</em> (defensa).</p>
+        <div style="margin-top: 14px;">
+          <span class="tag">Hacking Ético</span>
+          <span class="tag">White Hat</span>
+          <span class="tag">Black Hat</span>
+          <span class="tag">Red & Blue</span>
+        </div>
+      </article>
+
+      <!-- 5. Ingeniería Social y Phishing -->
+      <article class="card">
+        <div class="card-icon">SOC</div>
+        <h3>Ingeniería Social y Phishing</h3>
+        <p>Métodos de manipulación psicológica orientados a que los usuarios eludan los controles de seguridad: <strong>Phishing</strong> (envío masivo de correos fraudulentos suplantando entidades confiables), <strong>Spear Phishing</strong> (ataques quirúrgicos dirigidos a directivos con información previa) y <strong>Vishing / Smishing</strong> (engaños telefónicos y por mensajería móvil para sustraer credenciales bancarias o códigos MFA).</p>
+        <div style="margin-top: 14px;">
+          <span class="tag">Phishing</span>
+          <span class="tag">Spear Phishing</span>
+          <span class="tag">Factor Humano</span>
+        </div>
+      </article>
+
+      <!-- 6. RaaS y Extorsión -->
+      <article class="card">
+        <div class="card-icon">RaaS</div>
+        <h3>Ransomware y RaaS</h3>
+        <p><strong>Ransomware as a Service (RaaS):</strong> modelo de cibercrimen corporativo donde bandas desarrolladoras (como <em>The Gentlemen</em>) licencian su software malicioso a afiliados a cambio de comisiones. Emplean <strong>doble extorsión</strong> (cifrado de sistemas locales y robo previo de archivos confidenciales) y <strong>triple extorsión</strong> (presión pública amenazando con notificar a los clientes y reguladores de la víctima).</p>
+        <div style="margin-top: 14px;">
+          <span class="tag">Ransomware</span>
+          <span class="tag">RaaS</span>
+          <span class="tag">Exfiltración</span>
+          <span class="tag">Extorsión</span>
+        </div>
+      </article>
+
+      <!-- 7. Zero Trust -->
+      <article class="card">
+        <div class="card-icon">ZT</div>
+        <h3>Arquitectura Zero Trust</h3>
+        <p>Paradigma de ciberdefensa moderna estructurado bajo el principio <em>"nunca confiar, verificar siempre"</em>. Elimina el concepto tradicional de 'perímetro seguro'. Se apoya en tres premisas: 1) Verificación explícita de cada petición de acceso, 2) Concesión estricta de privilegios mínimos (Least Privilege), y 3) Asumir la brecha (asumir que el atacante ya está presente en la red interna).</p>
+        <div style="margin-top: 14px;">
+          <span class="tag">Zero Trust</span>
+          <span class="tag">Least Privilege</span>
+          <span class="tag">Microsegmentación</span>
+        </div>
+      </article>
+
+      <!-- 8. Controles Técnicos Activos -->
+      <article class="card">
+        <div class="card-icon">DEF</div>
+        <h3>Controles Técnicos Activos</h3>
+        <p><strong>Autenticación Multifactor (MFA):</strong> barrera que exige dos o más pruebas independientes de identidad. <strong>Microsegmentación de Red:</strong> creación de zonas lógicas aisladas mediante VLANs y firewalls para frenar el movimiento lateral de intrusos. <strong>Data Loss Prevention (DLP):</strong> tecnologías que monitorizan, detectan y bloquean la extracción o fuga no autorizada de datos confidenciales.</p>
+        <div style="margin-top: 14px;">
+          <span class="tag">MFA</span>
+          <span class="tag">VLANs</span>
+          <span class="tag">DLP</span>
+          <span class="tag">Defensa Activa</span>
+        </div>
+      </article>
+
+      <!-- 9. Operaciones de Ciberdefensa -->
+      <article class="card">
+        <div class="card-icon">SOC</div>
+        <h3>Operaciones y Resiliencia</h3>
+        <p><strong>SOC (Security Operations Center):</strong> centro especializado que monitoriza la infraestructura 24/7. Integra herramientas <strong>SIEM</strong> (correlación de alertas y logs masivos en tiempo real) y <strong>SOAR</strong> (automatización de respuestas defensivas). Se complementa con la política de <strong>Backups Inmutables (3-2-1)</strong>, que impide la sobreescritura o cifrado de respaldos por ransomware.</p>
+        <div style="margin-top: 14px;">
+          <span class="tag">SOC 24/7</span>
+          <span class="tag">SIEM & SOAR</span>
+          <span class="tag">Backups 3-2-1</span>
+        </div>
+      </article>
+    </section>
+
+    <!-- PANEL 1: RESPONSABILIDAD COMPARTIDA -->
+    <section class="content-panel">
+      <h2>El Modelo de Responsabilidad Compartida en la Nube</h2>
+      <p>Uno de los ejes más analizados durante la asignatura consiste en desmitificar que la migración a la nube (AWS, Microsoft Azure o Google Cloud) delegue toda la seguridad en el proveedor:</p>
+      <ul>
+        <li><strong>Seguridad DE la Nube (Responsabilidad del Proveedor):</strong> El proveedor cloud asume la custodia y seguridad física de los centros de datos mundiales, la provisión de energía, la refrigeración, el hardware del servidor, el almacenamiento físico y la capa de virtualización / hipervisores de cómputo.</li>
+        <li><strong>Seguridad EN la Nube (Responsabilidad Exclusiva de la Empresa Cliente):</strong> La organización es la única garante de:
+          <ul>
+            <li>Clasificación y etiquetado de la información según su criticidad.</li>
+            <li>Administración del Directorio Activo, identidades y privilegios de acceso (IAM).</li>
+            <li>Exigencia de autenticación multifactor (MFA) para cada usuario y cuenta de administrador.</li>
+            <li>Configuración de permisos de acceso en buckets, carpetas y repositorios compartidos.</li>
+            <li>Cifrado de la información tanto en tránsito (TLS/HTTPS) como en reposo (claves administradas por el cliente).</li>
+            <li>Supervisión de registros de auditoría y respuesta ante accesos atípicos.</li>
+          </ul>
+        </li>
+        <li><strong>Evidencia Empírica de la Industria:</strong> Más del 95% de los incidentes de exfiltración masiva en la nube (como el caso ocurrido en Ecopetrol en 2026) derivan de errores humanos de configuración, permisos excesivamente abiertos o credenciales corporativas comprometidas del lado del cliente, y no de fallos en la infraestructura física del proveedor.</li>
+      </ul>
+      <p class="note"><strong>Máxima de Seguridad en Nube:</strong> La nube no es inherentemente insegura; su vulnerabilidad surge cuando se trasladan modelos de permisos tradicionales sin aplicar gobierno estricto y Zero Trust.</p>
+    </section>
+
+    <!-- PANEL 2: LA PARADOJA DE LA CONFIDENCIALIDAD -->
+    <section class="content-panel">
+      <h2>La Paradoja de la Confidencialidad y el Impacto Multidimensional</h2>
+      <p>Existe el error común de considerar que un ciberataque solo es grave cuando los sistemas se apagan, se caen los portales web o se destruyen bases de datos. En ciberseguridad avanzada, la vulneración de la <strong>Confidencialidad</strong> genera un daño catastrófico e irreversible por sí misma:</p>
+      <ul>
+        <li><strong>Naturaleza Irreversible de la Fuga:</strong> Una vez que un atacante exfiltra o descarga documentos corporativos confidenciales, el daño está consumado. Aunque los archivos originales sigan intactos y disponibles en los servidores de la empresa, la exclusividad del secreto comercial se pierde para siempre al poder ser replicado y publicado en la dark web indefinidamente.</li>
+        <li><strong>Efecto Cascada:</strong> La información expuesta (fórmulas químicas, contratos con proveedores, estrategias de licitación, planes geológicos o registros contables) suministra munición para nuevos ataques de extorsión, espionaje corporativo y fraudes de suplantación de identidad.</li>
+        <li><strong>Consecuencias Regulatorias y Financieras:</strong> En empresas que cotizan en bolsa, la filtración exige la divulgación obligatoria de eventos materiales ante organismos como la SEC de EE. UU. y la Superintendencia Financiera, generando caídas en la cotización de acciones, demandas colectivas y multas por infringir normativas de privacidad.</li>
+      </ul>
+    </section>
+
+    <!-- PANEL 3: GOBERNANZA Y DECISIÓN GERENCIAL -->
+    <section class="content-panel">
+      <h2>Ciberseguridad como Estrategia de Negocio y Gobernanza Corporativa</h2>
+      <p>La seguridad de la información ha dejado de ser un tema relegado a los ingenieros de soporte técnico para convertirse en un tema prioritario en la mesa de la alta gerencia:</p>
+      <ul>
+        <li><strong>Liderazgo y Cultura desde la Dirección:</strong> Si la presidencia y las gerencias no destinan presupuesto adecuado y no promueven con el ejemplo las buenas prácticas, los empleados percibirán las medidas de seguridad como trabas burocráticas innecesarias.</li>
+        <li><strong>Gestión del Riesgo en la Cadena de Suministro:</strong> Las organizaciones modernas dependen de cientos de proveedores externos. Un proveedor con controles de seguridad deficientes puede convertirse en la puerta trasera que comprometa toda la red corporativa.</li>
+        <li><strong>Oportunidad Estratégica:</strong> Demostrar que una empresa cuenta con certificaciones rigurosas (como ISO 27001) y sólidas políticas de privacidad genera una ventaja competitiva determinante para captar clientes corporativos que exigen garantías sobre sus datos.</li>
+      </ul>
+      <p class="note"><strong>Principio Fundamental:</strong> <em>"No se puede proteger lo que no se conoce"</em>. El inventario detallado de activos de información y la gestión continua del riesgo son los cimientos sobre los cuales se erige cualquier organización resiliente.</p>
+    </section>
+
+  </main>
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <span>© 2026 Línea de Énfasis 2 · Ciberseguridad · Corporación Universitaria Remington</span>
+    </div>
+  </footer>
+</body>
+</html>
